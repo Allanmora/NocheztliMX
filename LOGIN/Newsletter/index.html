@@ -36,7 +36,36 @@
 </head>
 
 <body>
-  <div id="fb-root"></div>  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="GfPMVhMl"></script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="zHDmI0gW"></script> 
+  <!-- Messenger plugin de chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your plugin de chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105873974996121");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
   
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
@@ -157,17 +186,21 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <span>2°</span>
+              <h4>Acceso a la comunidad en facebook</h4>
+              Exclucivo Premium
+              <div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=204370325146485&amp;id=105873974996121" data-width="350" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=204370325146485&amp;id=105873974996121" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/Nocheztli-105873974996121/">Nocheztli</a> en&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=204370325146485&amp;id=105873974996121">Lunes, 25 de octubre de 2021</a></blockquote></div>
+              Libre
+              <div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=204371271813057&amp;id=105873974996121" data-width="350" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=204371271813057&amp;id=105873974996121" class="fb-xfbml-parse-ignore">Publicado por <a href="https://www.facebook.com/Nocheztli-105873974996121/">Nocheztli</a> en&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=204371271813057&amp;id=105873974996121">Lunes, 25 de octubre de 2021</a></blockquote></div>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <span>3°</span>
+              <h4> Clases</h4>
+              <p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D203412715242246%26id%3D105873974996121&show_text=true&width=800" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+                
             </div>
           </div>
 
@@ -210,6 +243,16 @@
 
       </div>
     </section><!-- End Clients Section -->
+    <!-- ======= Cta Section ======= -->
+<section id="cta" class="cta">
+  <div class="container" data-aos="zoom-in">
+    <div class="text-center">
+      <h3>Manual de Introducción A La Extracción de Pigmentos Naturales Básicos.</h3>
+      <p> Es un manual instructivo para la elaboracióm de pigmentos naturales a partir de materiales que encontramos en la naturaleza.</p>
+      <a class="cta-btn" href="#">Descargalo con tu subscripcion premium</a>
+    </div>
+  </div>
+</section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
